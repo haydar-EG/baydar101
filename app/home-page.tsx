@@ -5,15 +5,9 @@ import { ProjectIdeaAssistant } from "@/components/sections/ai-demo-section"
 export default function HomePage() {
   return (
     <main className="min-h-screen">
-      <section id="hero">
-        <HeroSection />
-      </section>
-      <section id="services">
-        <ServicesSection />
-      </section>
-      <section id="ai-demo">
-        <ProjectIdeaAssistant />
-      </section>
+      <HeroSection />
+      <ServicesSection />
+      <ProjectIdeaAssistant />
       
       {/* Placeholder sections for now */}
       <section id="process" className="section-padding bg-background-alt">
@@ -23,7 +17,7 @@ export default function HomePage() {
         </div>
       </section>
       
-      <section id="portfolio" className="section-padding bg-background-base">
+      <section className="section-padding bg-background-base">
         <div className="container text-center">
           <h2 className="text-display font-bold text-text-primary mb-4">Featured Work</h2>
           <p className="text-lg text-text-secondary">Coming soon - Portfolio showcase</p>
