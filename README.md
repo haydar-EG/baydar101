@@ -360,12 +360,6 @@ npm install @notionhq/client
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
-
-For support and questions:
-- Create an issue in the repository
-- Email: developer@yourstudio.com
-- Documentation: [Link to docs site]
 
 ## 🙏 Acknowledgments
 
